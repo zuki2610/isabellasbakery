@@ -1,0 +1,23 @@
+
+@use '../abstracts/variables';
+@use '../abstracts/colors';
+@use '../abstracts/mixins';
+
+.products {
+  text-align: center;
+  padding: variables.$spacing-md 0;
+  background-color: colors.$color-background;
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: variables.$spacing-md;
+    color: colors.$color-primary;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: variables.$spacing-md;
+  }
+}

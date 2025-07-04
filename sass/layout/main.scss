@@ -1,0 +1,43 @@
+
+@use '../abstracts/variables';
+@use '../abstracts/colors';
+@use '../abstracts/mixins';
+@use '../abstracts/functions';
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: variables.$spacing-md;
+  background-color: colors.$color-background;
+}
+
+.about {
+  text-align: center;
+  padding: variables.$spacing-md 0;
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: variables.$spacing-sm;
+    color: colors.$color-primary;
+  }
+
+  &__description {
+    font-size: variables.$font-size-base;
+    color: colors.$color-text-secondary;
+    max-width: 800px;
+    margin: 0 auto variables.$spacing-md auto;
+    line-height: 1.6;
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: variables.$border-radius-md;
+    @include mixins.soft-shadow;
+    margin: 0 auto;
+  }
+
+  .about__button {
+    margin-top: variables.$spacing-md;
+  }
+}

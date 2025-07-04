@@ -1,0 +1,45 @@
+@use '../abstracts/variables';
+@use '../abstracts/colors';
+@use '../abstracts/mixins';
+
+.button {
+  display: inline-block;
+  padding: variables.$spacing-sm variables.$spacing-md;
+  font-family: variables.$font-family-base;
+  font-size: variables.$font-size-base;
+  color: colors.$color-surface;
+  background-color: colors.$color-primary;
+  border: none;
+  border-radius: variables.$border-radius-md;
+  cursor: pointer;
+  @include mixins.transition(all);
+
+  &:hover {
+    background-color: colors.$color-secondary;
+  }
+
+  &:disabled {
+    background-color: colors.$color-border;
+    cursor: not-allowed;
+  }
+
+  &--secondary {
+    background-color: colors.$color-secondary;
+    color: colors.$color-text-primary;
+
+    &:hover {
+      background-color: colors.$color-primary;
+      color: colors.$color-surface;
+    }
+  }
+
+  &--small {
+    padding: variables.$spacing-xs variables.$spacing-sm;
+    font-size: variables.$font-size-sm;
+  }
+
+  &--large {
+    padding: variables.$spacing-md variables.$spacing-lg;
+    font-size: variables.$font-size-lg;
+  }
+}

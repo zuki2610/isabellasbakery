@@ -1,0 +1,42 @@
+@use '../abstracts/variables';
+@use '../abstracts/colors';
+@use '../abstracts/mixins';
+
+.header {
+  background-color: colors.$color-primary;
+  color: colors.$color-surface;
+  padding: variables.$spacing-sm 0;
+
+  &__container {
+    @include mixins.flex-center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 variables.$spacing-md;
+  }
+
+  &__logo {
+    height: 50px;
+  }
+
+  &__nav {
+    .nav__list {
+      display: flex;
+      gap: variables.$spacing-sm;
+    }
+
+    .nav__item {
+      list-style: none;
+    }
+
+    .nav__link {
+      color: colors.$color-surface;
+      font-weight: 500;
+      @include mixins.transition(color);
+
+      &:hover {
+        color: colors.$color-accent;
+      }
+    }
+  }
+}

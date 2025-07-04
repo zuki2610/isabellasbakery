@@ -1,0 +1,41 @@
+
+@use '../abstracts/variables';
+
+body {
+  font-family: variables.$font-family-base;
+  font-size: variables.$font-size-base;
+  color: variables.$text-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: variables.$spacing-sm;
+  color: variables.$text-color;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  margin-bottom: variables.$spacing-sm;
+  line-height: 1.6;
+  color: variables.$text-color;
+}
+
+a {
+  font-weight: 500;
+}
+
+strong {
+  font-weight: 600;
+}

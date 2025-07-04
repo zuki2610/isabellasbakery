@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Eliminar subrayado y color por defecto en enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos base del body */
+body {
+  line-height: 1.5;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #fffaf5;
+  color: #4c3b4d;
+}
+
+/* Listas sin estilos */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Botones sin bordes */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

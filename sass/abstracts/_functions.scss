@@ -1,0 +1,27 @@
+/// Función para convertir píxeles a rem
+/// @param {Number} $px - valor en píxeles
+/// @return {Number} valor en rem
+@function rem($px) {
+  @return #{$px / 16}rem;
+}
+
+/// Función para aclarar un color
+/// @param {Color} $color
+/// @param {Number} $percentage
+@function lighten-color($color, $percentage: 10%) {
+  @return lighten($color, $percentage);
+}
+
+/// Función para oscurecer un color
+/// @param {Color} $color
+/// @param {Number} $percentage
+@function darken-color($color, $percentage: 10%) {
+  @return darken($color, $percentage);
+}
+
+/// Ejemplo de función para calcular opacidad personalizada
+/// @param {Color} $color
+/// @param {Number} $alpha
+@function set-opacity($color, $alpha: 0.5) {
+  @return rgba($color, $alpha);
+}

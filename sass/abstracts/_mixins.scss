@@ -1,0 +1,30 @@
+/// Mixin para media queries responsivas
+/// @param {String} $breakpoint - tamaño (ej: sm, md, lg)
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: 576px) { @content; }
+  } @else if $breakpoint == md {
+    @media (max-width: 768px) { @content; }
+  } @else if $breakpoint == lg {
+    @media (max-width: 992px) { @content; }
+  } @else if $breakpoint == xl {
+    @media (max-width: 1200px) { @content; }
+  }
+}
+
+/// Mixin para transición básica
+@mixin transition($properties...) {
+  transition: $properties 0.3s ease-in-out;
+}
+
+/// Mixin para aplicar sombra suave
+@mixin soft-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/// Mixin para centrar elementos con Flexbox
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

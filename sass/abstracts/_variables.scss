@@ -1,0 +1,32 @@
+
+@use 'colors' as colors;
+
+// Fuentes
+$font-family-base: 'Plus Jakarta Sans', sans-serif;
+
+// Tamaños base
+$font-size-base: 1rem;  // 16px
+$font-size-lg: 1.25rem; // 20px
+$font-size-sm: 0.875rem; // 14px
+
+// Espaciados
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 3rem;
+
+// Border radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
+
+// Z-index
+$z-index-header: 100;
+$z-index-modal: 200;
+$z-index-overlay: 300;
+
+// Acceso rápido a colores
+$primary-color: colors.$color-primary;
+$secondary-color: colors.$color-secondary;
+$background-color: colors.$color-background;
+$text-color: colors.$color-text-primary;
