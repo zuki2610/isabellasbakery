@@ -1,0 +1,33 @@
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fffaf5;
+}
+
+.about {
+  text-align: center;
+  padding: 2rem 0;
+}
+.about__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #b76e79;
+}
+.about__description {
+  font-size: 1rem;
+  color: #7b6d76;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.6;
+}
+.about__image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+.about .about__button {
+  margin-top: 2rem;
+}/*# sourceMappingURL=main.css.map */

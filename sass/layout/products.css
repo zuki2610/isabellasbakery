@@ -1,0 +1,16 @@
+.products {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #fffaf5;
+}
+.products__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #b76e79;
+}
+.products__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}/*# sourceMappingURL=products.css.map */

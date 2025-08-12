@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cupcakes-de-vainilla",
+    "name": "Cupcakes de Vainilla",
+    "price": 3990,
+    "stock": 5,
+    "img": "../assets/img/cupcake.jpg",
+    "description": "Deliciosos cupcakes suaves, ideales para cualquier ocasión."
+  },
+  {
+    "id": "macarons-surtidos",
+    "name": "Macarons Surtidos",
+    "price": 4990,
+    "stock": 3,
+    "img": "../assets/img/macarons.jpg",
+    "description": "Macarons artesanales en variedad de sabores frutales."
+  },
+  {
+    "id": "torta-chocolate",
+    "name": "Torta de Chocolate",
+    "price": 12990,
+    "stock": 1,
+    "img": "../assets/img/pastel.jpg",
+    "description": "Bizcocho húmedo de cacao con cobertura intensa."
+  },
+  {
+    "id": "cheesecake",
+    "name": "Cheesecake",
+    "price": 10990,
+    "stock": 2,
+    "img": "../assets/img/cheesecake.jpg",
+    "description": "Delicioso cheesecake con base de galleta y mermelada de frutos rojos."
+  },
+  {
+    "id": "tarta-frutal",
+    "name": "Tarta Frutal",
+    "price": 11990,
+    "stock": 4,
+    "img": "../assets/img/frutas.jpg",
+    "description": "Tarta fresca con una variedad de frutas de temporada."
+  },
+  {
+    "id": "tarta-limon",
+    "name": "Tarta de Limón",
+    "price": 10990,
+    "stock": 3,
+    "img": "../assets/img/pielimon.jpg",
+    "description": "Refrescante tarta de limón con base de galleta."
+  }
+]
